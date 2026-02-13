@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+version: "3.1"
+
+stories:
+- story: precificacao completa
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: start_pricing
+  - action: utter_ask_cost
+  - intent: inform_cost
+  - action: utter_ask_operational
+  - intent: inform_operational_cost
+  - action: utter_ask_tax
+  - intent: inform_tax
+  - action: utter_ask_profit
+  - intent: inform_profit
+  - action: utter_ask_discount
+  - intent: inform_discount
+  - action: action_calculate_price
+  - action: utter_goodbye
