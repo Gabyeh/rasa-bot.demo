@@ -28,6 +28,7 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
 version: "3.1"
 
 stories:
@@ -48,3 +49,4 @@ stories:
   - intent: inform_discount
   - action: action_calculate_price
   - action: utter_goodbye
+

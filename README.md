@@ -12,4 +12,3 @@ Usuário: 15
 Bot: Qual a margem de lucro desejada?
 Usuário: 20
 Bot: O preço final do produto é R$ 153,85
-
