@@ -17,6 +17,7 @@ nlu:
     - calcular preço de serviço
     - me ajude a precificar
     - preço do produto
+    
 - intent: inform_cost
   examples: |
     - 50
