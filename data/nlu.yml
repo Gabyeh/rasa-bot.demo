@@ -48,6 +48,7 @@ nlu:
     - sem desconto
     - desconto de 10
     - 5%
+    
 - intent: goodbye
   examples: |
     - tchau!
@@ -58,6 +59,7 @@ nlu:
   examples: |
     - sim
     - positivo
+    
  - intent: deny
   examples: |
     - não
