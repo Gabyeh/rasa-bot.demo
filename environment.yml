@@ -1,9 +1,0 @@
-name: rasa-env
-channels:
-  - conda-forge
-dependencies:
-  - python=3.10
-  - pip
-  - pip:
-      - rasa==3.7.1
-      - tensorflow==2.12.0
