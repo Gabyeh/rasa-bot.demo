@@ -60,7 +60,7 @@ nlu:
     - sim
     - positivo
     
- - intent: deny
+- intent: deny
   examples: |
     - não
     - nunca
@@ -76,9 +76,9 @@ nlu:
 - intent: mood_unhappy
   examples: |
     - infelizmente 
-    - estou muito trsite
+    - estou muito triste 
     
-  - intent: bot_challenge
+- intent: bot_challenge
   examples: |
     - você é um bot?
     - você é um humano?
