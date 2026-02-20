@@ -43,5 +43,6 @@ Projeto desenvolvido para fins de estudo e prática em:
 > Observação: este projeto foi desenvolvido e testado com **Python 3.8**.
 
 ```bash
+pip install rasa 
 rasa train
 rasa shell
